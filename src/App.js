@@ -29,7 +29,7 @@ function App() {
   console.log(question)
   return (
     <main>
-      {/* <Modal /> */}
+      <Modal />
       <section className="quiz">
         <p className="correct-answers">
           correct answers : {correct} / {index}
